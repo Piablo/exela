@@ -1,0 +1,102 @@
+.main-container-exela-header{
+    width: 100%;
+    
+    
+}
+.top-menu-exela-header{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(21,44,55);
+    display: none;
+}
+.link-button-exela-header{
+    color:white;
+    text-decoration: none;
+    margin-right: 30px;
+    float: right;
+    margin: 10px;
+}
+
+.main-menu-exela-header{
+    width: 100%;
+    height: 120px;
+    display: grid;
+    grid-template-columns: 110px 1fr 40px;
+    grid-template-areas: "logoContainerExelaHeader contactNumberExelaHeader hamburgerContainerExelaHeader";
+}
+
+.logo-container-exela-header{
+    
+    width: 100%;
+    grid-area: "logoContainerExelaHeader"
+}
+
+.menu-container-exela-header{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    grid-area: "menuContainerExelaHeader";
+    display: none;
+}
+
+.contact-number-exela-header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 25px;
+    grid-area: "contactNumberExelaHeader"
+}
+.contact-number-exela-header a {
+    margin: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(25,80,116);
+}
+
+.search-bar-container-exela-header{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: none;
+    grid-area: "searchbarContainerExelaHeader"
+}
+.logo-exela-header{
+    height: 120px;
+    float: right;
+}
+.hamburger-container-exela-header{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    display: grid;
+    grid-area: "hamburgerContainerExelaHeader"
+}
+@media (min-width: 690px) {
+    .main-menu-exela-header{
+        grid-template-columns: 140px 1fr 250px 40px;
+        grid-template-areas: "logoContainerExelaHeader contactNumberExelaHeader searchbarContainerExelaHeader hamburgerContainerExelaHeader";
+    }
+    .search-bar-container-exela-header{
+        display: block;
+    }
+}
+
+@media (min-width: 950px) {
+    .top-menu-exela-header{
+        display: block;
+    }
+    .main-menu-exela-header{
+        grid-template-columns: 11% 1fr 170px 250px;
+        grid-template-areas: "logoContainerExelaHeader menuContainerExelaHeader contactNumberExelaHeader searchbarContainerExelaHeader";
+    }
+    .menu-container-exela-header{
+        display: block;
+    }
+    .hamburger-container-exela-header{
+        display: none;
+    }
+    
+}
