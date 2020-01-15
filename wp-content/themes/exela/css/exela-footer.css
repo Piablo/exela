@@ -1,0 +1,156 @@
+.main-container-exela-footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url("../images/footer/main.jpg");
+    background-size: cover;
+    background-position: right 53% top;
+}
+.inner-container-exela-footer{
+    position: absolute;
+    top:50px;
+    left: 5%;
+    width: 90%;
+    height: 230px;
+}
+.quick-links-outer-container-exela-footer{
+    position: absolute;
+    top:520px;
+    width: 100%;
+}
+.quick-links-container-exela-footer{
+    height: 200px;
+    width: 200px;
+}
+.socials-container-exela-footer{
+    position: relative;
+    height: 200px;
+    width: 200px;
+}
+.socials-outer-container-exela-footer{
+    position: absolute;
+    top:300px;
+    height: 200px;
+    width: 100%;
+}
+.icon-exela-footer{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    background-color: rgb(235, 170, 30);
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.icon-exela-footer i {
+    
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.fb-container-exela-footer{
+    bottom: 50px;
+}
+.wa-container-exela-footer{
+    bottom: 50px;
+    left: 50px;
+}
+.yt-container-exela-footer{
+    bottom: 50px;
+    left: 100px;
+}
+.gplus-container-exela-footer{
+    bottom: 50px;
+    left: 150px;
+}
+.insta-container-exela-footer{
+    bottom: 0px;
+}
+.li-container-exela-footer{
+    bottom: 0px;
+    left: 50px;
+}
+.wa2-container-exela-footer{
+    bottom: 0px;
+    left: 100px;
+}
+.skype-container-exela-footer{
+    bottom: 0px;
+    left: 150px;
+}
+
+.footer-statement-exela-footer{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+.footer-menu-exela-footer{
+    position: absolute;
+    top:720px;
+    width: 100%;
+    height: 30px;
+    display: none;
+}
+.footer-copyright-exela-footer{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 0;
+    text-align: center;
+    color: white;
+}
+.footer-copyright-container-exela-footer{
+    display: block;
+    position: absolute;
+    top:400px;
+    width: 100%;
+    height: 360px;
+    text-align: center;
+    background-color: rgb(22,44,56);
+}
+.footer-menu-spacer-2-exela-footer{
+    width: 850px;
+    height: 30px;
+}
+
+
+
+
+
+@media (min-width: 365px) {
+    .inner-container-exela-footer{
+        border-bottom: 2px solid rgb(250,250,250);
+    }
+    
+}
+@media (min-width: 930px) {
+    .socials-outer-container-exela-footer{
+        width: auto;
+        top:50px;
+        right: 5%;
+    }
+    .quick-links-outer-container-exela-footer{
+        top:50px;
+        left: 5%;
+        width: auto;
+    }
+    .footer-menu-exela-footer{
+        top:320px;
+        display: block
+    }
+    .footer-copyright-exela-footer{
+        top:650px;
+    }
+    .footer-copyright-container-exela-footer{
+        
+        display: none;
+    }
+    
+    
+}

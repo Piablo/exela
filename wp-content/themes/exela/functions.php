@@ -1,18 +1,21 @@
 <?php
     function load_stylesheets(){
         
-       
-        // wp_enqueue_script('javascript', get_template_directory_uri() . "/app.js", array('jquery'), 1, true);
-
+        wp_register_style('overrides', get_template_directory_uri() . "/style.css", array(), 1, 'all');
+        wp_enqueue_style('overrides');
+        
+        wp_enqueue_script('javascript', get_template_directory_uri() . "/app.js", array('jquery'), 1, true);
 
         wp_register_style('exela-header', get_template_directory_uri() . "/css/exela-header.css", array(), 1, 'all');
         wp_enqueue_style('exela-header');
 
+        wp_register_style('exela-footer', get_template_directory_uri() . "/css/exela-footer.css", array(), 1, 'all');
+        wp_enqueue_style('exela-footer');
+
         wp_register_style('controls', get_template_directory_uri() . "/css/controls-exela.css", array(), 1, 'all');
         wp_enqueue_style('controls');
 
-        wp_register_style('overrides', get_template_directory_uri() . "/style.css", array(), 1, 'all');
-        wp_enqueue_style('overrides');
+        
   
 
         wp_enqueue_style( 
