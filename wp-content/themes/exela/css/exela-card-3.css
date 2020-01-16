@@ -1,0 +1,67 @@
+.main-container-exela-card-3{
+    position: relative;
+    width: 100%;
+    padding: 40px 0 30px 0;
+    background-color: rgb(237,237,238);
+}
+.h1-exela-card-3{
+    margin: 0px 40px;
+}
+.divider-exela-card-3{
+    margin: 30px 40px;
+    float: left;
+    height: 10px;
+    width: 50px;
+    background-color: rgb(235, 170, 30);
+}
+.card-container-exela-card-3{
+    width: 94%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "card1ContainerExelaCard3"
+    "card1ContainerExelaCard3"
+    "card1ContainerExelaCard3";
+    grid-gap: 20px;
+}
+.card-1-container-exela-card-3{
+    width: 100%;
+    grid-area: "card1ContainerExelaCard3";
+}
+.card-container-inner-1-exela-card-3{
+    display: block;
+    width: 100%;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgb(200,200,200);
+    padding: 5% 0;
+}
+.image-container-exela-card-3{
+    width: 100%;
+    padding-top:75%;
+    background-size: cover;
+}
+.image-1-exela-card-3{
+    background-image: url('../images/card-3/image1.jpg');
+}
+.image-2-exela-card-3{
+    background-image: url('../images/card-3/image2.jpg');
+}
+.image-3-exela-card-3{
+    background-image: url('../images/card-3/image3.jpg');
+}
+.text-container-exela-card-3{
+    width: 90%;
+    height: 330px;
+    padding-top: 5%;
+}
+.button-2-container-exela-card-3{
+    width: 180px;
+    height: 40px;
+    margin-left: 5%;
+}
+
+@media (min-width: 975px) {
+    .card-container-exela-card-3{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-areas: "card1ContainerExelaCard3";
+    }
+}

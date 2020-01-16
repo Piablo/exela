@@ -23,6 +23,9 @@
 
         wp_register_style('exela-3-grid', get_template_directory_uri() . "/css/exela-3-grid.css", array(), 1, 'all');
         wp_enqueue_style('exela-3-grid');
+
+        wp_register_style('exela-card-3', get_template_directory_uri() . "/css/exela-card-3.css", array(), 1, 'all');
+        wp_enqueue_style('exela-card-3');
   
 
         wp_enqueue_style( 

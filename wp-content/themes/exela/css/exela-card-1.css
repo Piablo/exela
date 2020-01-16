@@ -1,12 +1,85 @@
 .main-container-exela-card-1{
     position: relative;
     width: 100%;
-    background-image: url('../images/home/main.jpg');
-    background-size: cover;
+    /* 
+    background-size: cover; */
     height: 900px;
     background-position: right 50% top;
     
 }
+.main-image-container-exela-card-1{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+.image-1-exela-card-1{
+    background-image: url('../images/home/main.jpg');
+    animation: image1Transition 10s linear infinite;
+}
+.image-2-exela-card-1{
+    background-image: url('../images/home/main2.jpg');
+    animation: image2Transition 10s linear infinite;
+}
+.image-3-exela-card-1{
+    background-image: url('../images/home/main3.jpg');
+    animation: image3Transition 10s linear infinite;
+}
+@keyframes image1Transition {
+    0%{
+      opacity: 1;
+    }
+    28%{
+      opacity: 1;
+    }
+    33%{
+      opacity: 0;
+    }
+    95%{
+      opacity: 0;
+    }
+    100%{
+      opacity: 1;
+    }
+  }
+  @keyframes image2Transition {
+    0%{
+      opacity: 0;
+    }
+    28%{
+      opacity: 0;
+    }
+    33%{
+      opacity: 1;
+    }
+    61%{
+      opacity: 1;
+    }
+    66%{
+      opacity: 0;
+    }
+    100%{
+        opacity: 0;
+      }
+  }
+  @keyframes image3Transition {
+    0%{
+      opacity: 0;
+    }
+    61%{
+      opacity: 0;
+    }
+    66%{
+      opacity: 1;
+    }
+    95%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+  }
+
 .mission-statement-container-exela-card-1{
     position: absolute;
     top:0;
