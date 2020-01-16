@@ -35,12 +35,12 @@
     
                 <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">How to Generate Leads</a>
                 <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">Making Money Online</a>
-                <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">Business: Where to Start</a>
-                <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">Home</a>
+                <a class="main-button-exela-header" href="<?php echo site_url('/where-to-start') ?>">Business: Where to Start</a>
+                <a  <?php if(is_page('home')) echo 'class="current-menu-item"'?>class="main-button-exela-header" href="<?php echo site_url('') ?>">Home</a>
             
             </div>
         </div>
-        <div class="contact-number-exela-header"><a href="tel: 01242375000" style="font-size:22px">0124 237 5000</a></div>
+        <div class="contact-number-exela-header"><a href="tel: 01242375000" style="font-size:22px">01242 375000</a></div>
         <div class="search-bar-container-exela-header">
             <div class="search-box-controls-exela">
                 <input class="search-txt-controls-exela" type="text" name="" placeholder="Search"></input>

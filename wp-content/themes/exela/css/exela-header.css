@@ -78,6 +78,7 @@
 }
 .main-button-container-exela-header{
     width: 100%;
+    color: rgb(56,57,57);
 }
 .mobile-menu-exela-header{
     width: 100%;
@@ -90,6 +91,14 @@
 }
 .exela-mobile-show{
     display: block;
+}
+.current-menu-item {
+    text-decoration: none;
+    float: right;
+    margin-right:30px;
+    color: rgb(62, 133, 192);
+    font-weight: bold;
+    font-size: 17px;
 }
 
 @media (min-width: 690px) {
