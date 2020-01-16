@@ -26,6 +26,12 @@
 
         wp_register_style('exela-card-3', get_template_directory_uri() . "/css/exela-card-3.css", array(), 1, 'all');
         wp_enqueue_style('exela-card-3');
+
+        wp_register_style('exela-banner-1', get_template_directory_uri() . "/css/exela-banner-1.css", array(), 1, 'all');
+        wp_enqueue_style('exela-banner-1');
+
+        wp_register_style('exela-form-1', get_template_directory_uri() . "/css/exela-form-1.css", array(), 1, 'all');
+        wp_enqueue_style('exela-form-1');
   
 
         wp_enqueue_style( 
