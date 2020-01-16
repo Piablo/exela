@@ -1,5 +1,6 @@
 <div class="main-container-exela-footer">
     <div class="inner-container-exela-footer">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/footer/awards.png" alt="" class="awards-container-exela-footer">
         <div class="footer-statement-exela-footer">
             <p><strong>Over 2000</strong> of our customers have grown faster</br>with our technology and training!</p>
         </div>
