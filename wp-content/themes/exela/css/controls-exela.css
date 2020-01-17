@@ -102,6 +102,12 @@
     border-color: rgb(20, 77, 114);;
     outline-width: 0;
 }
+.dark-grey-text{
+    color: rgb(45,45,45) !important;
+}
+.bold{
+    font-weight: bold;
+}
 
 
 

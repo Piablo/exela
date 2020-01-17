@@ -1,0 +1,39 @@
+.main-container-3-panel-card-sml-right-exela{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    background-image: url('../images/page-2/overlay-right.png');
+}
+.image-3-panel-card-sml-right-exela{
+    position: absolute;
+    left: 50px;
+    top:80px;
+    height:650px;
+}
+.card-container-3-panel-card-sml-right-exela{
+    position: absolute;
+    top:40px;
+    right: 50px;
+    width: 50%;
+    height: 660px;
+    padding: 30px 0;
+    background-color: white;
+    box-shadow: 5px 5px 15px 5px rgb(200,200,200);
+}
+.button-container-3-panel-card-sml-right-exela{
+    position: absolute;
+    width: 50%;
+    height: 40px;
+    left: 25%;
+    bottom: 50px;
+}
+
+@media (min-width: 690px) {
+  
+    
+}
+
+@media (min-width: 1265px) {
+    
+    
+}

@@ -26,10 +26,10 @@
             <h2 style="margin-bottom: 10px">Quick Links</h2>
             <ul style="list-style: none; cursor: pointer">
                 <li>Home</li>
-                <li>About Us</li>
+                <li <?php if(is_page('about-us')) echo 'class=""'?> href="<?php echo site_url('/about-us') ?>">About Us</li>
                 <li>How We Help</li>
                 <li>Who We Help</li>
-                <li>Blog</li>
+                <li <?php if(is_page('blog')) echo 'class=""'?> href="<?php echo site_url('/blog') ?>">Blog</li>
                 <li>Contact Us</li>
             </ul>
         </div>

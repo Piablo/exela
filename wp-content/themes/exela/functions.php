@@ -32,6 +32,18 @@
 
         wp_register_style('exela-form-1', get_template_directory_uri() . "/css/exela-form-1.css", array(), 1, 'all');
         wp_enqueue_style('exela-form-1');
+
+        wp_register_style('exela-header-main', get_template_directory_uri() . "/css/exela-header-main.css", array(), 1, 'all');
+        wp_enqueue_style('exela-header-main');
+
+        wp_register_style('3-panel-card-lrg-left-exela', get_template_directory_uri() . "/css/3-panel-card-lrg-left-exela.css", array(), 1, 'all');
+        wp_enqueue_style('3-panel-card-lrg-left-exela');
+
+        wp_register_style('block-1-exela', get_template_directory_uri() . "/css/block-1-exela.css", array(), 1, 'all');
+        wp_enqueue_style('block-1-exela');
+
+        wp_register_style('3-panel-card-sml-right-exela', get_template_directory_uri() . "/css/3-panel-card-sml-right-exela.css", array(), 1, 'all');
+        wp_enqueue_style('3-panel-card-sml-right-exela');
   
 
         wp_enqueue_style( 

@@ -1,0 +1,31 @@
+.main-container-exela-header-main{
+    position: relative;
+    width: 100%;
+}
+.main-image-exela-header-main{
+    position: relative;
+    width: 100%;
+    z-index: -1;
+
+}
+.opacity-div-exela-header-main{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 690px) {
+  
+    
+}
+
+@media (min-width: 1265px) {
+    
+    
+}

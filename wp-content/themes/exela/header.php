@@ -22,7 +22,7 @@
             <a class="link-button-exela-header" href="<?php echo site_url('#') ?>">Cookie-Policy</a>
             <a class="link-button-exela-header" href="<?php echo site_url('#') ?>">Terms of Use</a>
             <a class="link-button-exela-header" href="<?php echo site_url('#') ?>">Privacy-Policy</a>
-            <a class="link-button-exela-header" href="<?php echo site_url('#') ?>">About Us</a>
+            <a <?php if(is_page('about-us')) echo 'class="current-link-item"'?> class="link-button-exela-header" href="<?php echo site_url('/about-us') ?>">About Us</a>
         </div>
         <div class="top-menu-spacer-1-exela-header"></div>
     </div>
@@ -33,10 +33,10 @@
         <div class="menu-container-exela-header">
             <div class="main-button-container-exela-header">
     
-                <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">How to Generate Leads</a>
-                <a class="main-button-exela-header" href="<?php echo site_url('#') ?>">Making Money Online</a>
-                <a class="main-button-exela-header" href="<?php echo site_url('/where-to-start') ?>">Business: Where to Start</a>
-                <a  <?php if(is_page('home')) echo 'class="current-menu-item"'?>class="main-button-exela-header" href="<?php echo site_url('') ?>">Home</a>
+                <a <?php if(is_page('how-to-generate-leads')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/how-to-generate-leads') ?>">How to Generate Leads</a>
+                <a <?php if(is_page('making-money-online')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/making-money-online') ?>">Making Money Online</a>
+                <a <?php if(is_page('where-to-start')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/where-to-start') ?>">Business: Where to Start</a>
+                <a <?php if(is_page('home')) echo 'class="current-menu-item"'?>class="main-button-exela-header" href="<?php echo site_url('') ?>">Home</a>
             
             </div>
         </div>
