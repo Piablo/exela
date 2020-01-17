@@ -118,6 +118,20 @@
     font-size: 20px;
     
 }
+.call-us-2-exela-card-1{
+  background-color: rgb(235, 170, 30);
+  color:white;
+  text-decoration: none;
+  height: 50px;
+  width: 60%;
+  left: 20%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  
+}
 @media (min-width: 380px) {
 .main-container-exela-card-1{
     height: 800px;

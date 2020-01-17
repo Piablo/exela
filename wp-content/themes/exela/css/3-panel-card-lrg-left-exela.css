@@ -20,6 +20,12 @@
     background-color: white;
     box-shadow: 5px 5px 15px 5px rgb(200,200,200);
 }
+.button-container-3-panel-card-lrg-left-exela{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 40px;
+}
 
 @media (min-width: 690px) {
   
