@@ -2,57 +2,58 @@
     width: 100%;
     background-image: url('../images/form-1/underlay.png');
     background-size: cover;
-    background-color: rgb(237,237,238);
     padding: 50px 0;
 }
-.grid-2-container-exela-form-1{
+.grid-container-exela-form-1{
     width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "container1ExelaForm1 container1ExelaForm1";
+    grid-template-columns: 1fr;
+    grid-template-areas: "card-container-exela-form-1"
+    "card-container-exela-form-1";
     grid-gap: 30px;
 }
-.container-1-exela-form-1{
-    position: relative;
+.card-container-exela-form-1{
     width: 100%;
-    height: 300px;
     background-color: white;
-    padding: 30px 0;
-    grid-area: "container1ExelaForm1";
-    box-shadow: 5px 5px 15px 5px rgb(200,200,200);
+    grid-area: "card-container-exela-form-1";
+    box-shadow: 3px 3px 15px 3px rgb(200,200,200);
 }
-.custom-font{
-    font-size: 2vw;
-    margin: 0 30px;
-    color: rgb(45,45,45);
+.header-container-exela-form-1{
+    position: relative;
+    width: 90%;
+    margin-bottom: 10px;
+    height: auto;
+    padding-bottom: 20px;
+}
+.control-container-exela-form-1{
+    position: relative;
+    height: 40px;
+    width: 90%;
+    margin: auto;
+}
 
-}
-.custom-p-font{
-    font-size: 1.3vw;
-    margin: 30px 30px;
-    color: rgb(180,180,180);
-}
-.button-container-exela-form-1{
-    position: absolute;
-    left: 15%;
-    bottom: 30px;
-    width: 70%;
-    height: 40px;
-}
-.input-1-container-exela-form-1{
-    position: absolute;
-    left: 15%;
-    bottom: 100px;
-    width: 70%;
-    height: 40px;
-}
-.input-2-container-exela-form-1{
-    position: absolute;
-    left: 15%;
-    bottom: 170px;
-    width: 70%;
-    height: 40px;
-}
 @media (min-width: 975px) {
-   
+    .grid-container-exela-form-1{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "card-container-exela-form-1 card-container-exela-form-1";
+    }
+    .header-container-exela-form-1{
+        margin-bottom: 0;
+        height: 350px;
+    }
+    .location-1-override{
+        position: absolute;
+        bottom: 30px;
+        left: 5%;
+    }
+    .location-2-override{
+        position: absolute;
+        bottom: 100px;
+        left: 5%;
+    }
+    .location-3-override{
+        position: absolute;
+        bottom: 170px;
+        left: 5%;
+    }
 }
