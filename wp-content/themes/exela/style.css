@@ -17,12 +17,15 @@ p{
 }
 h1{
     font-size: 40px;
-    line-height: 1.2em
+    line-height: 1.2em;
+    color: rgb(48,48,48);
 }
 
 h2{
     font-size: 23px;
-    line-height: 1.2em
+    line-height: 1.2em;
+    color: rgb(48,48,48);
+    
 }
 
 .white-text{
@@ -48,4 +51,7 @@ h2{
 
 .exela-blue-text{
     color: rgb(25,80,116);
+}
+.exela-light-grey{
+    color: rgb(180,180,180);
 }

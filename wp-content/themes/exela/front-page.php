@@ -15,7 +15,6 @@
         <div class="call-us-button-wrapper">
             <a class="call-us-exela-card-1" href="tel: 01242375000">Call Us on 01242 375000</a>
         </div>
-        
     </div>
 </div> 
 
@@ -52,7 +51,7 @@
             <h1 class="align-center">EXELA is transforming the way businesses use technology to grow.</h1>
         </div>
         <div class="p-container-exela-2">
-            <p>It's our mission to help businesses and entrepreneurs to simplify the use of technology to improve processes, save time, generate leads, manage and make more sales while wowing customers with awesome customer service.</p>
+            <p class="align-center exela-light-grey">It's our mission to help businesses and entrepreneurs to simplify the use of technology to improve processes, save time, generate leads, manage and make more sales while wowing customers with awesome customer service.</p>
         </div>
         </div> 
     </div>
@@ -95,7 +94,7 @@
                     <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/images/card-3/image1.jpg" alt="">
                 </div>
                 <div class="text-container-exela-card-3">
-                    <div class="text-container-inner-exela-card-3">
+                    <div class="text-container-inner-exela-card-3 exela-blue-text">
                         <p>How does a stream of unsolicited referrals sound to you?</p>
                         <p>Good, right?</p>
                         <p>You still need to close the deals but referred prospects contacting you are usually your best leads</p>
@@ -114,7 +113,7 @@
                     <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/images/card-3/image2.jpg" alt="">
                 </div>
                 <div class="text-container-exela-card-3">
-                    <div class="text-container-inner-exela-card-3">
+                    <div class="text-container-inner-exela-card-3 exela-blue-text">
                         <p>Despite the frequency of times people search for ways to make money online and the number of websites and pages dedicated to this topic, it is still a new question with an evolving answer.</p>
                         <p>When I worked at IBM twenty years ago the answer would have boon around either having an eComrnerce website or saving your corporation money with a procurement or self-service portal</p>
                         <p>Those answers could still be true.</p>
@@ -132,7 +131,7 @@
                     <img style="width: 100%" src="<?php echo get_template_directory_uri(); ?>/images/card-3/image3.jpg" alt="">
                 </div>
                 <div class="text-container-exela-card-3">
-                    <div class="text-container-inner-exela-card-3">
+                    <div class="text-container-inner-exela-card-3 exela-blue-text">
                         <p>Its not easy setting up a new business. Where to start is often a bone of contention, as there are so many theories and philosophies about marketing, digital marketing, sales and business development.</p>
                         <p>What seems to be most needed out there is a trustworthy guide. So we've prepared a check-list of steps to take in o logical sequence for marketing communications processes and sales processes in business.</p>               
                     </div>
@@ -153,7 +152,6 @@
     <div class="logos-container-exela-banner-1">
         <div class="logo-container-exela-banner-1 logo-1-exela-banner-1"></div>
         <div class="logo-container-exela-banner-1 logo-2-exela-banner-1"></div>
-        <div class="logo-container-exela-banner-1 logo-3-exela-banner-1"></div>
     </div>
 </div>
 
@@ -164,9 +162,9 @@
         <div class="card-container-exela-form-1">
             <div class="spacer"></div>
             <div class="header-container-exela-form-1 align-center">
-                <h2>We-ve tailor-made our services to ensure you get exactly what you need</h2>
+                <h1>We've tailor-made our services to ensure you get exactly what you need</h1>
                 <div class="spacer"></div>
-                <p>We would love to help grow your business, find out how we can help you!</p>
+                <p class="exela-light-grey">We would love to help grow your business, find out how we can help you!</p>
                 <div class="spacer"></div>
                 <div class="control-container-exela-form-1 location-1-override">
                     <div class="button-2-controls-exela">View our services</div>
@@ -178,7 +176,7 @@
         <div class="card-container-exela-form-1">
             <div class="spacer"></div>
             <div class="header-container-exela-form-1 align-center">
-                <h2>We-ve tailor-made our services to ensure you get exactly what you need</h2>
+                <h1>Stay up-to-date with our latest news!</h1>
                 <div class="spacer"></div>
                 <div class="control-container-exela-form-1 location-3-override">
                     <input class="exela-input-controls" id="name" name="name" type="text" placeholder="Email Address">

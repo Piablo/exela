@@ -4,11 +4,11 @@
 }
 .logos-container-exela-banner-1{
     
-    width: 630px;
+    width: 320px;
     height: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: "logoContainerExelaBanner1 logoContainerExelaBanner1 logoContainerExelaBanner1";
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "logoContainerExelaBanner1 logoContainerExelaBanner1";
     grid-gap: 50px;
 }
 .logo-container-exela-banner-1{
@@ -17,6 +17,7 @@
     height: 92px;
     grid-area: "logoContainerExelaBanner1";
     background-size: cover;
+    
 }
 .logo-1-exela-banner-1{
     width: 135px;
@@ -24,9 +25,6 @@
 }
 .logo-2-exela-banner-1{
     background-image: url('../images/banner-1/logo-2.jpg');
-}
-.logo-3-exela-banner-1{
-    background-image: url('../images/banner-1/logo-3.png');
 }
 
 @media (min-width: 975px) {
