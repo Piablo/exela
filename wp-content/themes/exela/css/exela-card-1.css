@@ -1,11 +1,16 @@
 .main-container-exela-card-1{
     position: relative;
     width: 100%;
-    /* 
-    background-size: cover; */
-    height: 900px;
+    height:auto;
     background-position: right 50% top;
     
+}
+.header-container-exela-card-1{
+  margin: 30px 0;
+  width: 100%;
+}
+.paragraph-container-exela-card-1{
+  margin: 30px 0;
 }
 .main-image-container-exela-card-1{
     position: absolute;
@@ -42,75 +47,63 @@
       opacity: 1;
     }
   }
-  @keyframes image2Transition {
-    0%{
-      opacity: 0;
-    }
-    28%{
-      opacity: 0;
-    }
-    33%{
-      opacity: 1;
-    }
-    61%{
-      opacity: 1;
-    }
-    66%{
-      opacity: 0;
-    }
-    100%{
-        opacity: 0;
-      }
+@keyframes image2Transition {
+  0%{
+    opacity: 0;
   }
-  @keyframes image3Transition {
-    0%{
-      opacity: 0;
-    }
-    61%{
-      opacity: 0;
-    }
-    66%{
-      opacity: 1;
-    }
-    95%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0;
-    }
+  28%{
+    opacity: 0;
   }
+  33%{
+    opacity: 1;
+  }
+  61%{
+    opacity: 1;
+  }
+  66%{
+    opacity: 0;
+  }
+  100%{
+      opacity: 0;
+    }
+}
+@keyframes image3Transition {
+  0%{
+    opacity: 0;
+  }
+  61%{
+    opacity: 0;
+  }
+  66%{
+    opacity: 1;
+  }
+  95%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 0;
+  }
+}
 
 .mission-statement-container-exela-card-1{
-    position: absolute;
-    top:0;
-    height:100%;
-    width: 100%;
-    background-color: rgba(255,255,255, .9);
-    border-radius: 0;
-    
+  position: relative;
+  width: 100%;
+  background-color: rgba(255,255,255, .9);
+  border-radius: 0;
+  z-index: 99;
+  margin:0;
+  padding: 30px 0 10px 0;
 }
-.exela-card-1-h1-font-style{
-    margin: 20px 20px 20px 20px;
-    font-size: 40px;
-    text-align: center;
-    font-size: 35px;
-    color: rgb(25,80,116);
-}
-.exela-card-1-p-font-style{
-    margin: 0px 20px 20px 20px;
-    text-align: center;
-    font-size: 18px;
-    color: rgb(25,80,116);
+.call-us-button-wrapper{
+  width: 90%;
+  margin: 50px 5%;
 }
 .call-us-exela-card-1{
-    position: absolute;
     background-color: rgb(235, 170, 30);
     color:white;
     text-decoration: none;
     height: 50px;
-    width: 90%;
-    left: 5%;
-    bottom: 20px;
+    width: 100%;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -133,50 +126,48 @@
   
 }
 @media (min-width: 380px) {
-.main-container-exela-card-1{
-    height: 800px;
+.header-container-exela-card-1{
+  margin: 30px 5%;
+  width: 90%;
+}
+.paragraph-container-exela-card-1{
+  margin: 30px 5%;
+  width: 90%;
+}
+.call-us-exela-card-1{
+  font-size: 25px; 
 }
 @media (min-width: 450px) {
     
-    .exela-card-1-h1-font-style{
-        margin: 50px 50px 30px 50px;
-        font-size: 40px;
-        text-align: center;
-    }
-    .exela-card-1-p-font-style{
-        margin: 0px 50px 30px 50px;
-        font-size: 20px;
-        text-align: center;
-    }
-    .call-us-exela-card-1{
-        width: 80%;
-        left: 10%;
-        font-size: 25px;
-        bottom: 50px;
-    }
-   
+  .exela-card-1-h1-font-style{
+      margin: 50px 50px 30px 50px;
+      font-size: 40px;
+      text-align: center;
+  }
 }
 @media (min-width: 620px) {
     .mission-statement-container-exela-card-1{
-        top:100px;
-        height:500px;
-        width: 600px;
-        border-radius: 0 25px 25px 0;
+      top:100px;
+      width: 600px;
+      border-radius: 0 25px 25px 0;
     }
     .exela-card-1-h1-font-style{
-        margin: 50px 50px 30px 50px;
-        text-align: left;
+      margin: 50px 50px 30px 50px;
+      text-align: left;
     }
-    .exela-card-1-p-font-style{
-        margin: 0px 50px 30px 50px;
-        text-align: left;
-    }
-    .call-us-exela-card-1{
-        width: 500px;
-        left: 50px;
-        font-size: 25px;
-        bottom: 50px;
-    }
-    
+  }
+  .main-container-exela-card-1{
+    height: auto;
+  }
 }
+@media (min-width: 620px) {
+  .main-container-exela-card-1{
+    height: 800px;
+  }
+}
+
+
+
+@media (min-width: 500px) {
+  
 }
