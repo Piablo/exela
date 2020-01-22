@@ -66,6 +66,7 @@
 .logo-exela-header{
     height: 120px;
     float: right;
+    cursor: pointer;;
 }
 .hamburger-container-exela-header{
     text-decoration: none;

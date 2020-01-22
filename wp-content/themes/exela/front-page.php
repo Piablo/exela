@@ -18,11 +18,9 @@
     </div>
 </div> 
 
-
 <div class="spacer"></div>
 
 <!--exela-3-grid-->
-
 <div class="main-container-exela-3-grid">
     <div class="card-container-exela-3-grid">
         <img src="<?php echo get_template_directory_uri(); ?>/images/home/bullseye.png" alt="" class="icon-exela-card-1">
@@ -41,7 +39,6 @@
 <div class="spacer"></div>
 
 <!--Exela-card-2-->
-
 <div class="main-container-exela-card-2">
     <div class="main-image-exela-card-2">
         <img style="width:100%" src="<?php echo get_template_directory_uri(); ?>/images/card-2/image.jpg" alt="">
@@ -59,7 +56,6 @@
 <div class="spacer"></div>
 
 <!--exela-3-grid-->
-
 <div class="main-container-exela-3-grid">
     <div class="card-container-exela-3-grid">
     <img src="<?php echo get_template_directory_uri(); ?>/images/home/gears.png" alt="" class="icon-exela-card-1">
@@ -78,7 +74,6 @@
 <div class="spacer"></div>
 
 <!--exela-card-3-->
-
 <div class="card-header-exela-card-3">
     <div class="header-container-exela-card-3">
         <h1>Helping business grow with Exela in the press</h1>
@@ -197,27 +192,5 @@
 </div>
 
 <div class="spacer"></div>
-
-<!-- <div class="container-1-exela-form-1">
-            <h1 class="custom-font align-center">We've tailor-made our services to ensure you get exactly what you need</h1>
-            <p class="custom-p-font align-center">We would love to help grow your business, find out how we can help you!</p>
-            <div class="button-container-exela-form-1">
-                <div class="button-2-controls-exela" style="font-size: 1.2vw">View our services</div>
-            </div>
-        </div>
-        <div class="container-1-exela-form-1">
-            <h1 class="custom-font align-center">Stay up to date with our latest news!</h1>
-            <div class="input-1-container-exela-form-1">
-                <input class="exela-input-controls" id="name" name="name" type="text" placeholder="Email Address">
-            </div>
-        <div class="input-2-container-exela-form-1">
-            <input class="exela-input-controls" id="name" name="name" type="text" placeholder="Name & Surname">
-            </div>
-            <div class="button-container-exela-form-1">
-                <div class="button-2-controls-exela" style="font-size: 1.2vw">Submit</div>
-            </div>
-        </div> -->
-    
-
 
 <?php get_footer();?>

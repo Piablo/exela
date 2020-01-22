@@ -41,7 +41,7 @@ get_header();
 
 <div class="spacer"></div>
 
-<div class="main-container-block-1-exela">
+<div class="main-container-block-1-exela open-sign-image">
     <div class="text-container-block-1-exela">
         <h1 class="custom-font white-text align-center">How do you make money online?</h1>
         <div class="spacer"></div>

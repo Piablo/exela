@@ -42,7 +42,7 @@ get_header();
 
 <!--block-1-exela--> 
 
-<div class="main-container-block-1-exela">
+<div class="main-container-block-1-exela open-sign-image">
     <div class="text-container-block-1-exela">
         <h1 class="custom-font white-text align-center">The Business Of Tools For Starters</h1>
         <div class="spacer"></div>
@@ -63,19 +63,21 @@ get_header();
 
 
 <div class="container-2-block-1-exela">
-    <h1 class="align-center">Where to Start in the Business of Smart Client Management</h1>
-    <div class="spacer"></div>
-    <p class="align-center exela-light-grey">Before we get into detail, it is helpful to understand the overview and why having a plan of action is desirable. When I ask my customers "what they want", from a sales and marketing perspective, they often answer - "more leads."</p>
-    <div class="spacer"></div>
-    <p class="align-center exela-light-grey">Very understandable. More leads = more business, right?</p>
-    <div class="spacer"></div>
-    <p class="align-center exela-light-grey">However, many businesses work in a wasteful way. They execute marketing initiatives, usually costing money, to generate leads. They follow up with some of those leads, get into sales conversations, and close some deals. But they rarely even make meaningful contact with most of the leads. For example, a business might generate one hundred leads, only contact ten of the prospects and win two deals. That's a lousy 2% conversion. What happened to the ninety leads with whom you did not connect and the other eight deals that did not close?</br>This process is very inefficient.</p>
-    <div class="spacer"></div>
-    <p class="align-center dark-grey-text bold">Most business only market to less than 5% of prospective customers.</p>
-    <div class="spacer"></div>
-    <p class="align-center exela-light-grey">Businesses only tend to market what they sell. Very sensible. People actively looking to buy will spot the product and begin the buying cycle. However, that leaves 95% of the target market who are not actively looking to buy right now.</p>
-    <p class="align-center exela-light-grey">This 95% will still have problems and pains. With some thought and creativity, you might be able to come up with a "lead magnet" that these prospects are at-tracted to and happy to trade for their name and email address. Once you have the contact details of someone who is the right target market and does have a problem, we can market to them, adding value as we go, until they are ready to buy.</p>
-    <p class="align-center exela-light-grey">If your system is sending the communication, and tracking response, you can make them the right offer at the right time. </p>
+    <div class="text-container-block-1-exela">
+        <h1 class="align-center">Where to Start in the Business of Smart Client Management</h1>
+        <div class="spacer"></div>
+        <p class="align-center exela-light-grey">Before we get into detail, it is helpful to understand the overview and why having a plan of action is desirable. When I ask my customers "what they want", from a sales and marketing perspective, they often answer - "more leads."</p>
+        <div class="spacer"></div>
+        <p class="align-center exela-light-grey">Very understandable. More leads = more business, right?</p>
+        <div class="spacer"></div>
+        <p class="align-center exela-light-grey">However, many businesses work in a wasteful way. They execute marketing initiatives, usually costing money, to generate leads. They follow up with some of those leads, get into sales conversations, and close some deals. But they rarely even make meaningful contact with most of the leads. For example, a business might generate one hundred leads, only contact ten of the prospects and win two deals. That's a lousy 2% conversion. What happened to the ninety leads with whom you did not connect and the other eight deals that did not close?</br>This process is very inefficient.</p>
+        <div class="spacer"></div>
+        <p class="align-center dark-grey-text bold">Most business only market to less than 5% of prospective customers.</p>
+        <div class="spacer"></div>
+        <p class="align-center exela-light-grey">Businesses only tend to market what they sell. Very sensible. People actively looking to buy will spot the product and begin the buying cycle. However, that leaves 95% of the target market who are not actively looking to buy right now.</p>
+        <p class="align-center exela-light-grey">This 95% will still have problems and pains. With some thought and creativity, you might be able to come up with a "lead magnet" that these prospects are at-tracted to and happy to trade for their name and email address. Once you have the contact details of someone who is the right target market and does have a problem, we can market to them, adding value as we go, until they are ready to buy.</p>
+        <p class="align-center exela-light-grey">If your system is sending the communication, and tracking response, you can make them the right offer at the right time. </p>
+    </div>
 </div>
 
 <!--3-panel-card-sml-right-exela-->

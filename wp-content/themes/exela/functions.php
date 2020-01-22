@@ -42,6 +42,9 @@
         wp_register_style('block-1-exela', get_template_directory_uri() . "/css/block-1-exela.css", array(), 1, 'all');
         wp_enqueue_style('block-1-exela');
 
+        wp_register_style('block-2-exela', get_template_directory_uri() . "/css/block-2-exela.css", array(), 1, 'all');
+        wp_enqueue_style('block-2-exela');
+
         wp_register_style('3-panel-card-sml-right-exela', get_template_directory_uri() . "/css/3-panel-card-sml-right-exela.css", array(), 1, 'all');
         wp_enqueue_style('3-panel-card-sml-right-exela');
   

@@ -1,0 +1,23 @@
+.main-container-block-2-exela{
+    width: 100%;
+    padding: 50px 0;
+}
+.text-container-outer-block-2-exela{
+    position: relative;
+    width: calc(100% - 100px);
+}
+.bullet-container-block-2-exela{
+    margin-top: 20px;
+}
+.icon-block-2-exela{
+    width: 50px;
+}
+.button-container-block-2-exela{
+    margin-top: 50px;
+    width: 300px;
+    height: 40px;
+}
+@media (min-width: 690px) {
+   
+    
+}
