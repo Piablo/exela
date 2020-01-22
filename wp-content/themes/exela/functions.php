@@ -47,6 +47,9 @@
 
         wp_register_style('3-panel-card-sml-right-exela', get_template_directory_uri() . "/css/3-panel-card-sml-right-exela.css", array(), 1, 'all');
         wp_enqueue_style('3-panel-card-sml-right-exela');
+
+        wp_register_style('exela-testimonials-block-1', get_template_directory_uri() . "/css/exela-testimonials-block-1.css", array(), 1, 'all');
+        wp_enqueue_style('exela-testimonials-block-1');
   
 
         wp_enqueue_style( 

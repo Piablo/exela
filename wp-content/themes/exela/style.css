@@ -46,9 +46,17 @@ h2{
     margin: 10px;
     color:rgb(62, 133, 192);
 }
+.font-size-small{
+    font-size: 13px;
+}
 
 /* text colors */
-
+.exela-dark-grey{
+    color: rgb(48,48,48);
+}
+.exela-medium-grey{
+    color: rgb(100,100,100)
+}
 .exela-blue-text{
     color: rgb(25,80,116);
 }
