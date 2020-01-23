@@ -23,13 +23,13 @@
 
     <div class="quick-links-outer-container-exela-footer">
         <div class="quick-links-container-exela-footer white-text">
-            <h2 style="margin-bottom: 10px">Quick Links</h2>
+            <h2 class="white-text" style="margin-bottom: 10px">Quick Links</h2>
             <ul style="list-style: none; cursor: pointer">
-                <li>Home</li>
-                <li <?php if(is_page('about-us')) echo 'class=""'?> href="<?php echo site_url('/about-us') ?>">About Us</li>
+                <li><a href="<?php echo site_url('/home') ?>">Home</a></li>
+                <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                 <li>How We Help</li>
                 <li>Who We Help</li>
-                <li <?php if(is_page('blog')) echo 'class=""'?> href="<?php echo site_url('/blog') ?>">Blog</li>
+                <li><a href="<?php echo site_url('/blog') ?>">Blog</a></li>
                 <li>Contact Us</li>
             </ul>
         </div>

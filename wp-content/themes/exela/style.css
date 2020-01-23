@@ -63,3 +63,6 @@ h2{
 .exela-light-grey{
     color: rgb(180,180,180);
 }
+.box-shadow{
+    box-shadow: 5px 5px 15px 5px rgb(200,200,200); 
+}

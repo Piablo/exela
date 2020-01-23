@@ -39,21 +39,6 @@ get_header();
 </div>
 <div class="spacer"></div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!--exela-textimonials-block-1--> 
 <div class="main-container-exela-testimonials-block-1">
     <div class="inner-container-exela-testimonials-block-1 align-center">
@@ -134,23 +119,6 @@ get_header();
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--exela-banner-1-->
 <div class="main-container-exela-banner-1">

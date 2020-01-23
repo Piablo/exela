@@ -50,6 +50,9 @@
 
         wp_register_style('exela-testimonials-block-1', get_template_directory_uri() . "/css/exela-testimonials-block-1.css", array(), 1, 'all');
         wp_enqueue_style('exela-testimonials-block-1');
+
+        wp_register_style('exela-block-3', get_template_directory_uri() . "/css/exela-block-3.css", array(), 1, 'all');
+        wp_enqueue_style('exela-block-3');
   
 
         wp_enqueue_style( 
