@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
     <title>exela</title>
 </head>
@@ -51,11 +50,11 @@
             </div>
         </div>
         <div class="hamburger-container-exela-header">
-            <i style="font-size:22px" class="fas fa-bars"></i>
+            <i style="font-size:22px" class="fas fa-bars" onclick="toggleMobileMenu()"></i>
         </div>
     </div>
 
-    <div class="mobile-menu-exela-header exela-mobile-hide">
+    <div class="mobile-menu-exela-header" id="exela-mobile-hide">
         <a class="main-button-exela-header mobile-menu-button-exela" href="<?php echo site_url('#') ?>">Home</a>
         <a class="main-button-exela-header mobile-menu-button-exela" href="<?php echo site_url('#') ?>">Business: Where to Start</a>
         <a class="main-button-exela-header mobile-menu-button-exela" href="<?php echo site_url('#') ?>">Making Money Online</a>
