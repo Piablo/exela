@@ -28,7 +28,8 @@
     </div>
     <div class="main-menu-exela-header">
         <div class="logo-container-exela-header">
-            <img class="logo-exela-header" src="<?php echo get_template_directory_uri(); ?>/images/header/logo.png" alt="">
+            <a href="<?php echo site_url('') ?>"><img class="logo-exela-header" src="<?php echo get_template_directory_uri(); ?>/images/header/logo.png" alt=""></a>
+            
         </div>
         <div class="menu-container-exela-header">
             <div class="main-button-container-exela-header">
@@ -36,7 +37,7 @@
                 <a <?php if(is_page('how-to-generate-leads')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/how-to-generate-leads') ?>">How to Generate Leads</a>
                 <a <?php if(is_page('making-money-online')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/making-money-online') ?>">Making Money Online</a>
                 <a <?php if(is_page('where-to-start')) echo 'class="current-menu-item"'?> class="main-button-exela-header" href="<?php echo site_url('/where-to-start') ?>">Business: Where to Start</a>
-                <a <?php if(is_page('home')) echo 'class="current-menu-item"'?>class="main-button-exela-header" href="<?php echo site_url('') ?>">Home</a>
+             
             
             </div>
         </div>

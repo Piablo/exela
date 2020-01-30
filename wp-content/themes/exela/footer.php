@@ -25,11 +25,11 @@
         <div class="quick-links-container-exela-footer white-text">
             <h2 class="white-text" style="margin-bottom: 10px">Quick Links</h2>
             <ul style="list-style: none; cursor: pointer">
-                <li><a href="<?php echo site_url('/home') ?>">Home</a></li>
-                <li><a href="<?php echo site_url('/about-us') ?>">About Us</a></li>
+                <li><a style="text-decoration: none; color: inherit" href="<?php echo site_url('/home') ?>">Home</a></li>
+                <li><a style="text-decoration: none; color: inherit" href="<?php echo site_url('/about-us') ?>">About Us</a></li>
                 <li>How We Help</li>
                 <li>Who We Help</li>
-                <li><a href="<?php echo site_url('/blog') ?>">Blog</a></li>
+                <li><a style="text-decoration: none; color: inherit" href="<?php echo site_url('/blog') ?>">Blog</a></li>
                 <li>Contact Us</li>
             </ul>
         </div>
